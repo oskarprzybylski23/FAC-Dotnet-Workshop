@@ -49,19 +49,19 @@ public class GamesController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetGames")]
+    [HttpGet]
     public IEnumerable<Game> Get()
     {
 // write code that causes the API to return the current list of games
     }
     
-        [HttpDelete("{id}", Name = "DeleteGame")]
-        public IEnumerable<Game> Delete([FromRoute] int id)
+        [HttpDelete]
+        public IEnumerable<Game> Delete( int id)
         {
   // write code that delets the game with the id sent to the API then returns a list of games
         }
-                [HttpPost( nameof = "Add Game")]
-        public IEnumerable<Game>  AddGame([FromBody] Game game)
+                [HttpPost]
+        public IEnumerable<Game>  AddGame( Game game)
         {
 // write code that adds the game posted to this route then displays the list of games
         }

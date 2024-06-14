@@ -170,3 +170,14 @@ C:\Users\sarah\Desktop\programing\DOTNET Workshop\Solution\testapi\obj\Debug\net
 C:\Users\sarah\Desktop\programing\DOTNET Workshop\Solution\testapi\obj\Debug\net8.0\testapi.pdb
 C:\Users\sarah\Desktop\programing\DOTNET Workshop\Solution\testapi\obj\Debug\net8.0\testapi.genruntimeconfig.cache
 C:\Users\sarah\Desktop\programing\DOTNET Workshop\Solution\testapi\obj\Debug\net8.0\ref\testapi.dll
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.csproj.AssemblyReference.cache
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.AssemblyInfoInputs.cache
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.AssemblyInfo.cs
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.csproj.CoreCompileInputs.cache
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.sourcelink.json
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.dll
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\refint\testapi.dll
+C:\Users\sarah\Desktop\programing\DOTNET Workshop\Workshop\testapi\obj\Debug\net8.0\testapi.pdb

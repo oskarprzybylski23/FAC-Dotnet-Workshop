@@ -49,21 +49,21 @@ public class GamesController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetGames")]
+    [HttpGet]
     public IEnumerable<Game> Get()
     {
         return games;
     }
     
-        [HttpDelete("{id}", Name = "DeleteGame")]
-        public IEnumerable<Game> Delete([FromRoute] int id)
+        [HttpDelete]
+        public IEnumerable<Game> Delete( int id)
         {
             var game = games.FirstOrDefault(x => x.id == id);
             if (game != null) games.Remove(game);
             return games;
         }
-                [HttpPost( nameof = "Add Game")]
-        public IEnumerable<Game>  AddGame([FromBody] Game game)
+                [HttpPost]
+        public IEnumerable<Game>  AddGame(Game game)
         {
             games.Add(game);
             return games;
