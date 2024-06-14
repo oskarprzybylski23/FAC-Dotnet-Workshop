@@ -9,7 +9,7 @@ Make sure you have Git and .NET SDK (v6.0) installed.
 
 1. clone your copy, and cd into it
 2. Run `dotnet restore` to install all the dependencies
-3. Run `dotnet run` to start the server (should error due to routes not guarnteeing return)
+3. Run `dotnet run` to start the server (should error due to routes not having a return)
 
 This app already has the basic structure and templates created. Your job is to fill out the necessary functions in the controllers so the routes can perform the required operations.
 
