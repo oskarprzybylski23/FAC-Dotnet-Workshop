@@ -1,4 +1,3 @@
-﻿# dotnetAPI
 # ASP.NET Challenge
 
 Practice using ASP.NET to create and manage routes in a web application.
