@@ -52,17 +52,19 @@ public class GamesController : ControllerBase
     [HttpGet]
     public IEnumerable<Game> Get()
     {
-// write code that causes the API to return the current list of games
+        return games;
     }
     
-        [HttpDelete]
-        public IEnumerable<Game> Delete( int id)
+        [HttpDelete("{id}")]
+        public IEnumerable<Game> Delete(int id)
         {
-  // write code that delets the game with the id sent to the API then returns a list of games
+        games.Remove(games[id]);
+         return games;
         }
                 [HttpPost]
         public IEnumerable<Game>  AddGame( Game game)
         {
-// write code that adds the game posted to this route then displays the list of games
+            games.Add(game);
+            return games;
         }
 }
